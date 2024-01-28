@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box { 
+            border: 1px solid red;
+            min-height: 0;
+            padding: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="box" style="display: flex; flex-direction: column;">
+        <div class="box" style="border-color: green;">  
+        </div>
+        
+        <div class="box" style="border-color: green; display: flex; flex-direction: row; flex-wrap: wrap;">  
+            <div class="box" style="border-color: pink; ">
+            </div>
+            <div class="box" style="border-color: pink; ">
+            </div>
+            <div class="box" style="border-color: green; ">
+            </div>
+            <div class="box" style="border-color: green; ">
+            </div>
+        </div>
+       
+        <div class="box" style="border-color: green; display: flex; flex-direction: column;"> 
+            <div class="box" style="border-color: pink; ">
+            </div>
+            <div class="box" style="border-color: green; ">
+            </div>
+            <div class="box" style="border-color: blue; ">
+            </div>
+        </div>    
+        
+        <div class="box" style="border-color: green; display: flex; flex-direction: column; flex-wrap: wrap; gap: 16px;">  
+            <div class="box" style="border-color: purple; ">
+            </div>
+            <div class="box" style="border-color: purple; ">
+            </div>
+        </div>
+        
+        <div class="box" style="border-color: cyan; flex:1 1 400px;">
+        </div>
+
+        <div class="box" style="border-color: green; display: flex; flex-direction: row; flex-wrap: wrap; gap: 16px;">
+            <div class="box" style="border-color: cyan; flex: 1 1 400px">
+            </div>
+            <div class="box" style="border-color: cyan; display: flex; flex-direction: column; gap: 16px;">
+              Ada apa kalau type kat sini? Nak letak box ke
+                <div class="box" style="border-color:crimson"> try test 1</div>
+                <div class="box" style="border-color:crimson"> try test 2</div>
+                <div class="box" style="border-color:crimson"> try test 3</div>
+
+            </div>
+        </div>
+        
+
+
+    </div>
+    
+
+
+
+</body>
+</html>
