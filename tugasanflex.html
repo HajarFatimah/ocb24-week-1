@@ -11,40 +11,160 @@
             min-height: 0;
             padding: 20px;
         }
+
+        .book {
+            border: 0.1rem solid black;
+            margin: 0px;
+            padding: 50px 500px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+
+        }
+
+        .price-tag {
+
+            border: 0.1rem solid black;
+            margin: 3rem 0rem 0rem 0rem;
+            padding: 0px;
+            display: flex;
+            flex-direction: row;
+            width: fit-content;
+        }
+
+        .rating {
+
+            border: 0.1rem solid black;
+            margin: 0rem 0rem 0rem 0rem;
+            padding: 0px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+            width: fit-content;
+        }
+
+   
     </style>
+        
 
 </head>
 <body>
+    <ul>
+        <li>
+            <a href="index.html"> Home </a>
+            
+        </li>
+        <li>
+            <a href="buku/index.html"> Buku</a>
+            
+        </li>
+        <li>
+            <a href="buku/author.html"> Penulis</a>
+            
+        </li>
+    </ul>
+
+    <p> </p>
+
     <div class="box" style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 10px; justify-content: center;">
         <div class="box" style="border-color: blue;"> </div>
-        <div class="box" style="border-color: blue; height: 0.5rem; width: 30rem"> </div>
+        <div class="box" style="border-color: blue; height: auto; width: 50%; justify-content: center;"> 
+            <p> Login</p>
+        </div>
         <div class="box" style="border-color: blue;"> </div>
         <div class="box" style="border-color: blue;"> </div>
 
-
     </div>
 
-    <div class="box" style="border-color: black; flex: 1 1 400px;">
-
+    <div class="box" style="border-color: black; flex: 1 1 300px;">
     </div>
 
-    <div class="box" style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 10px;">
+    <div class="book">
         
-        <div class="box" style="border-color: blue; height: 300px; width: 200px"> </div>
-        <div class="box" style="border-color: blue; height: 300px; width: 200px"> </div>
-        <div class="box" style="border-color: blue; height: 300px; width: 200px"> </div>
-        <div class="box" style="border-color: blue; height: 300px; width: 200px"> </div>
-        <div class="box" style="border-color: blue; height: 300px; width: 200px"> </div>
-        <div class="box" style="border-color: blue; height: 300px; width: 200px"> </div>
-        <div class="box" style="border-color: blue; height: 300px; width:200px"> </div>
-        <div class="box" style="border-color: blue; height: 300px; width: 200px"> </div>
-        <div class="box" style="border-color: blue; height: 300px; width: 200px"> </div>
+        <div class="box" style="border-color: blue; width:fit-content">
+            
+            <img style="margin: 0px; padding: 20px;" src="https://images.unsplash.com/photo-1592496431122-2349e0fbc666?q=80&w=2112&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="cover buku" height="100px" max-width="100%;">
+            <p> Psychology of Money</p>
+            <p> Morgan Housel</p>
+            <div class="price-tag"> $20.00</div>
+            <div class="rating"> 4.6</div>   
+                
+        </div>
+            
+        <div class="box" style="border-color: blue;">
+            <img style="margin: 0px; padding: 20px;" src="https://cdn.kobo.com/book-images/164af17b-6987-4165-bfbf-b37c7e84276e/353/569/90/False/the-wealth-of-nations-illustrated-2.jpg" alt="cover buku" height="200px" max-width="100%; justify-content: center">
+            <p> The Wealth of Nations</p>
+            <p> Adam Smith</p>
+            <div class="price-tag"> $20.00</div>
+            <div class="rating"> 4.6</div>
+
+        </div>
+
+        <div class="box" style="border-color: blue; width:fit-content">
+            <img style="margin: 0px; padding: 20px;" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1398164413i/21969786.jpg" alt="cover buku" height="200px" max-width="100%;">
+            <p> More Than This</p>
+            <p> Patrick Ness</p>
+            <div class="price-tag"> $30.00</div>
+            <div class="rating"> 4.6</div>
+
+        </div>
+
+        <div class="box" style="border-color: blue; width:fit-content">
+            <img src="https://images.unsplash.com/photo-1520467795206-62e33627e6ce?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="cover buku" height="200px" max-width="100%;">
+            <p> She Beyond Sun </p>
+            <p> Daniel Gargallo </p>
+            <div class="price-tag"> $45.00</div>
+            <div class="rating"> 4.6</div>
+        </div>
+
+        <div class="box" style="border-color: blue; width:fit-content"> 
+            <img style="margin: 0px; padding: 20px;" src="https://images.unsplash.com/photo-1592496431122-2349e0fbc666?q=80&w=2112&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="cover buku" height="100px" max-width="100%;">
+            <p> Psychology of Money</p>
+            <p> Morgan Housel</p>
+            <div class="price-tag"> $50.00</div>
+            <div class="rating"> 4.6</div>
+        </div>
+        
+        <div class="box" style="border-color: blue; width:fit-content"> 
+            <img style="margin: 0px; padding: 20px;" src="https://images.unsplash.com/photo-1521036392421-35d436448d6a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="cover buku" height="100px" max-width="100%;">
+            <p> Psychology of Money</p>
+            <p> Morgan Housel</p>
+            <div class="price-tag"> $40.00</div>
+            <div class="rating"> 4.3</div>
+        </div>
+        
+        <div class="box" style="border-color: blue; width:fit-content">
+            <img style="margin: 0px; padding: 20px;" src="https://images.unsplash.com/photo-1592496431122-2349e0fbc666?q=80&w=2112&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="cover buku" height="100px" max-width="100%;">
+            <p> Psychology of Money</p>
+            <p> Morgan Housel</p>
+            <div class="price-tag"> $55.00</div>
+            <div class="rating"> 4.0</div>
+        </div>
+        
+        <div class="box" style="border-color: blue; width:fit-content"> 
+            <img style="margin: 0px; padding: 20px;" src="https://images.unsplash.com/photo-1592496431122-2349e0fbc666?q=80&w=2112&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="cover buku" height="100px" max-width="100%;">
+            <p> Psychology of Money</p>
+            <p> Morgan Housel</p>
+            <div class="price-tag"> $35.00</div>
+            <div class="rating"> 4.0</div>
+        </div>
+
+        <div class="box" style="border-color: blue; width:fit-content">
+            <img style="margin: 0px; padding: 20px;" src="https://images.unsplash.com/photo-1592496431122-2349e0fbc666?q=80&w=2112&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="cover buku" height="100px" max-width="100%;">
+            <p> Psychology of Money</p>
+            <p> Morgan Housel</p>
+            <div class="price-tag"> $45.00</div>
+            <div class="rating"> 4.1</div>
+        </div>
 
     </div>
 
-    <div class="box" style="display: flex; border-color: black; justify-content: space-around;">
-        <div class="box" style="border-color: blue; height: 0.5rem; width: 30rem"> </div>
-        <div class="box" style="border-color: blue; height: 0.5rem; width: 30rem"> </div>
+    <div class="box" style="display: flex; border-color: black; flex-wrap: wrap; gap:50px; justify-content: space-between;">
+        <div class="box" style="border-color: blue; height: auto; width: auto"> Phone Number: +03 45678910 </div>
+        <div class="box" style="border-color: blue; height: auto; width: auto"> Email: <address> abc.rakbuku@gmail.com </address></div>
 
     </div>
 
